@@ -1,0 +1,14 @@
+name: Testimonial
+description: 'Provides Testimonial content type and related configuration. A node type to hold kudos and accolades'
+type: module
+core: 8.x
+package: D324
+dependencies:
+  - ds
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views

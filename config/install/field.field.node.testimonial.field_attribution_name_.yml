@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attribution_name_
+    - node.type.testimonial
+id: node.testimonial.field_attribution_name_
+field_name: field_attribution_name_
+entity_type: node
+bundle: testimonial
+label: 'Attribution (Name)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
